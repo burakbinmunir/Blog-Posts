@@ -1,9 +1,9 @@
 var express = require('express');
 var mongoose = require('mongoose');
-var Users = require('./models/users');
+var Users = require('./models/l201302_users');
 var session = require('express-session');
 var bodyParser = require('body-parser');
-var Blogposts = require('./models/blogposts');
+var Blogposts = require('./models/l201302_blogposts');
 
 var app = express();
 app.use(bodyParser.json());
